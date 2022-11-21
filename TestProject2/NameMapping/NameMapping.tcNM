@@ -3,6 +3,927 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{33619833-E714-4D26-8993-4CE0708644EC}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{F83A1979-64E4-47A2-9453-F2AD17ADBD3E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6A97C98E-1C01-4D57-98CF-750D17F95093}">
+								<Image FileName="-934848895" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{CA2367BB-6FF1-45F1-B5CA-97EB2C6B3EA0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHUB" Key="{5B3567B0-F0BD-416C-92CE-BBD2E51501DC}">
+								<Image FileName="-239695980" Left="0" Top="154" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://pegaqat01.ftr.com/prweb/PRWebLDAP2/app/FCSAG/af877Q9MPv6ZDWNVTIV9Tu0HmQ6-fr53OZTpu3p531k*/!STANDARD*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSt0FillRuleEvenoddClipRu" Key="{72C8A6BD-7866-48EB-9CC7-EBD6EF8D9A92}">
+										<Image FileName="1047971629" Left="0" Top="204" Right="278" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;.st0{fill-rule:evenodd;clip-rule:evenodd;}&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div//ul[contains(@class, &apos;yui-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dummyDiv&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{AF1FDC2D-1C08-48BC-8B8E-DC29570CA849}">
+										<Image FileName="1047971629" Left="0" Top="204" Right="102" Bottom="233" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Tab1" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;.st0{fill-rule:evenodd;clip-rule:evenodd;}&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;HOME&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome2" Key="{7D973FE4-A3A2-4ACB-9A78-4A46EE105A20}">
+										<Image FileName="1047971629" Left="32" Top="207" Right="83" Bottom="230" />
+										<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;HOME&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;RULE_KEY&apos;]//td/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="framePegagadget0ifr" Key="{5FE6FB80-3719-454D-9EC7-40C925EE6768}">
+										<Image FileName="-1990331584" Left="0" Top="233" Right="1920" Bottom="1008" />
+										<Selectors>
+											<Selector>
+												<Value Value="#PegaGadget0Ifr" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;PegaGadget0Ifr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;PegaWebGadget0&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;PegaWebGadget0&apos;]/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="linkProspect" Key="{81C0B7A3-22BC-44DE-9799-134198D93FFE}">
+												<Image FileName="1965293605" Left="46" Top="334" Right="155" Bottom="363" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;2015031309454806553620&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;PROSPECT&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[@title=&apos;Create Prospect&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div//a[contains(@class, &apos;Dashboard_Left_Nav&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="framePegagadget2ifr" Key="{E0EAF4B9-F10B-49DF-83EE-3B76A328453D}">
+										<Image FileName="-2113057595" Left="0" Top="233" Right="1920" Bottom="1008" />
+										<Selectors>
+											<Selector>
+												<Value Value="#PegaGadget2Ifr" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;PegaGadget2Ifr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@title=&apos;New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;PegaWebGadget2&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;PegaWebGadget2&apos;]/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="sectionCenterPanel" Key="{EE517770-0288-4B57-B5EA-54732933F0E2}">
+												<Image FileName="-2113057595" Left="72" Top="320" Right="1920" Bottom="1009" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Validate Service Address&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="selectStatecode" Key="{B5119A40-C0CA-42B8-BA58-AB226249B1A9}">
+												<Image FileName="206345149" Left="110" Top="413" Right="287" Bottom="449" />
+												<TypeInfo Item0="{EDAEAE18-B06C-4AC7-8687-4C03BE1B565B}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#stateCode" />
+													</Selector>
+													<Selector>
+														<Value Value="//select[@name=&apos;stateCode&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[3]//select" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//select" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxAutocompleteid" Key="{3354AED0-9B51-4792-B237-A5B2A156F79C}">
+												<Image FileName="-1718593347" Left="341" Top="413" Right="956" Bottom="449" />
+												<TypeInfo Item0="{B862BE1C-3855-4A72-B177-0C4E62265E16}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#autocompleteid" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;pyFlowActionHTML&apos;]//div[3]//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[@id=&apos;pyFlowActionHTML&apos;]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeAddressul" Key="{4C0AF610-EE54-42EE-ACBD-6CAB5FFFE6B5}">
+												<Image FileName="-1193373671" Left="341" Top="448" Right="821" Bottom="689" />
+												<Selectors>
+													<Selector>
+														<Value Value="#addressUL" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;1800 Silas Deane Hwy Ste 1 Rocky Hill CT 06067&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;addressOverlay&apos;]/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode" Key="{85491E7E-1B3C-44A6-B3C5-29394CF1FA22}">
+												<Image FileName="-1193373671" Left="341" Top="448" Right="821" Bottom="497" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[.=&apos;1800 Silas Deane Hwy Ste 1 Rocky Hill CT 06067&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[@value=&apos;0&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonSearch" Key="{D82F18E1-6090-4CF4-AB22-C4C376711331}">
+												<Image FileName="-590995558" Left="1632" Top="586" Right="1872" Bottom="622" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;2014120207223306225738&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[.=&apos;Search&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[5]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;Secondary_CTA_Dark&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[5]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonContinue" Key="{18DBBF26-9E5E-4729-B906-D3B8D10CDDC5}">
+												<Image FileName="-1038362460" Left="1548" Top="762" Right="1831" Bottom="822" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;201801310538080540995364&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[.=&apos;Continue&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]//div[2]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]//div[2]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="asideLeftPanel" Key="{64AE2969-B8F4-4492-A16A-E56F9EAE566F}">
+												<Image FileName="66106740" Left="0" Top="340" Right="540" Bottom="987" />
+												<Selectors>
+													<Selector>
+														<Value Value="//aside[contains(., &apos;Add task&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//aside[contains(@class, &apos;workarea-main-left&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//aside" />
+													</Selector>
+													<Selector>
+														<Value Value="//aside" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonAddTask" Key="{2D84248F-684E-41B3-9F65-0BBCEF873C69}">
+												<Image FileName="66106740" Left="17" Top="357" Right="497" Bottom="395" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Add task&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[2]//button[@title=&apos;Add Task&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div//button[contains(@class, &apos;Wrap_up_button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[2]//div//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeOrders" Key="{5AC03FF9-4DAF-4F11-8AA0-BA820979079E}">
+												<Image FileName="610893160" Left="18" Top="396" Right="1163" Bottom="839" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Orders&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul[contains(@class, &apos;pz-po-c-ul&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;po0&apos;]/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkCreateNewOrder" Key="{FA942D94-0EE3-4CC1-8135-0172A82930A8}">
+												<Image FileName="-2096872868" Left="46" Top="494" Right="225" Bottom="540" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;2014123005242607302524&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;Create New Order&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/ul/li//div[2]//a[@title=&apos;Select Create New Order&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="framePegagadget3ifr" Key="{86D3B15F-1208-4C91-9838-E0557AD60E79}">
+										<Image FileName="-1497135546" Left="0" Top="233" Right="1920" Bottom="1008" />
+										<Selectors>
+											<Selector>
+												<Value Value="#PegaGadget3Ifr" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;PegaGadget3Ifr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;PegaWebGadget3&apos;]/iframe[@title=&apos;New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;PegaWebGadget3&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;PegaWebGadget3&apos;]/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="sectionCenterPanel" Key="{4B40056E-1D7F-4DBF-A306-1FACC6E532A8}">
+												<Image FileName="-1497135546" Left="0" Top="340" Right="1920" Bottom="858" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Lifeline Disclosure&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelNo" Key="{AD23866F-9305-43A1-8C67-E4835A862E7C}">
+												<Image FileName="1574154373" Left="125" Top="702" Right="184" Bottom="738" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//label[.=&apos;No&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//span[2]/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//span[2]/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div//span[2]/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonContinue" Key="{1A164F46-10C5-4D8C-8B07-07173490D127}">
+												<Image FileName="-2056211451" Left="1549" Top="748" Right="1849" Bottom="808" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Continue&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;pyFlowActionHTML&apos;]//button" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeTablist" Key="{75EA2450-1056-4A52-9E05-538A7DBBACD6}">
+												<Image FileName="1492358275" Left="-1" Top="-1" Right="-1" Bottom="-1" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(@class, &apos;Inspector_control_panelList&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;PEGA_TABBED1&apos;]//ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonAdd" Key="{19D0440A-72CB-41BA-93D8-4FE6783D84BD}">
+												<Image FileName="1492358275" Left="94" Top="562" Right="520" Bottom="622" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;EXPAND-OUTERFRAME&apos;]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;EXPAND-OUTERFRAME&apos;]//div//button[contains(@class, &apos;Primary_CTA_narrow&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;EXPAND-OUTERFRAME&apos;]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkClickToAcknowledge" Key="{B4CBF1F3-DB0F-422C-BD65-943184517179}">
+												<Image FileName="1344178257" Left="842" Top="712" Right="1078" Bottom="735" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;20190328171207016434431&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[.=&apos;(Click to Acknowledge)&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//tr[3]/td/nobr//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]//tr/td//tr[3]/td/nobr//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="sectionCenterPanel2" Key="{447BF9B6-124F-4EFE-A880-705FE12E9A6A}">
+												<Image FileName="-1783277755" Left="0" Top="340" Right="1895" Bottom="1733" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Services&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeServices" Key="{D19DE4C3-EFA1-43E6-9035-D28C2E7AA691}">
+												<Image FileName="-1783277755" Left="68" Top="386" Right="1472" Bottom="427" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Services&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul[contains(@class, &apos;yui-nav&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;PEGA_TABBED2&apos;]/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkTabanchor" Key="{A90D5056-8A12-4929-8242-A6A52D2B815D}">
+												<Image FileName="-1783277755" Left="623" Top="386" Right="807" Bottom="419" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[contains(., &apos;Installation Type&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[@id=&apos;Tab5&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//tr/td//ul/li[@id=&apos;Tab5&apos;]/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeInstallationType" Key="{308D5698-5D27-4D7A-8446-345217173D30}">
+												<Image FileName="-1783277755" Left="647" Top="391" Right="788" Bottom="414" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//nobr[contains(text(), &apos;Installation Type&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[@id=&apos;Tab5&apos;]/a//tr/td/nobr" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeSt0FillRuleEvenoddClipRu" Key="{2390906A-5590-476D-B268-6154DBD505BB}">
+												<Image FileName="-1954569555" Left="0" Top="284" Right="715" Bottom="318" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;.st0{fill-rule:evenodd;clip-rule:evenodd;}&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//ul[@role=&apos;tablist&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//div//ul[contains(@class, &apos;yui-nav&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;dummyDiv&apos;]//ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//div//ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeTab5" Key="{71110DA9-BD79-4F66-9714-BEF0C0DDC400}">
+												<Image FileName="-1954569555" Left="282" Top="284" Right="458" Bottom="313" />
+												<Selectors>
+													<Selector>
+														<Value Value="#Tab5" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[@title=&apos;I-3714258&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelNo2" Key="{495BB5AB-B540-4896-B1E5-793414684210}">
+												<Image FileName="-1954569555" Left="207" Top="753" Right="266" Bottom="789" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//label[.=&apos;No&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[2]/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;EXPAND-INNERDIV&apos;]//span[2]/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[2]/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonAdd2" Key="{DB20A7F6-0F7C-48FE-A28A-942F1BFC552C}">
+												<Image FileName="-1282691464" Left="94" Top="392" Right="520" Bottom="452" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="(//button)[57]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonResponsepanelPyworkpage4" Key="{A83A96DC-9099-4DE9-A793-D05A6AD9EE48}">
+												<Image FileName="1840124182" Left="1533" Top="482" Right="1816" Bottom="542" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;2014120207223306225738&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[@name=&apos;ResponsePanel_pyWorkPage_4&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[.=&apos;Accept&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="sectionCenterPanel3" Key="{AC3E1D71-9E96-41B3-AC73-06C65D62ADFC}">
+												<Image FileName="1845604771" Left="0" Top="340" Right="1895" Bottom="1035" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Capture Credit Info&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelCreditCheckOptOut" Key="{473FDCD7-2A89-4F3B-87C8-A97E7415C4C1}">
+												<Image FileName="1788592175" Left="62" Top="888" Right="247" Bottom="907" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="[data-test-id=&apos;20170912090706006756728-Label&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//label[.=&apos;Credit Check Opt-Out&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]/div/div/span/label[contains(@class, &apos;cb_standard&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[3]/div/div/span/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]/div/div/span/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonContinue2" Key="{B814263B-0D72-45E4-B34D-4E9232974929}">
+												<Image FileName="-1324207861" Left="1524" Top="898" Right="1824" Bottom="958" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Continue&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]//div[3]//div[2]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;CT&apos;]/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[3]//div[3]//div[2]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="sectionCenterPanel4" Key="{DFDAEC7E-1944-490E-B750-7F5E87FA28E4}">
+												<Image FileName="1739023991" Left="0" Top="340" Right="1920" Bottom="863" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;View Required Payment&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonContinue3" Key="{6D81D020-7C3B-474E-9A6E-199CA46EBCF4}">
+												<Image FileName="1739023991" Left="1549" Top="753" Right="1849" Bottom="813" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Continue&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div/div[2]/div/div/button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[2]/div/div/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div/div[2]/div/div/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="sectionCenterPanel5" Key="{5C28917D-5D18-48CA-8B08-9CF9EA21800D}">
+												<Image FileName="1828213470" Left="0" Top="340" Right="1895" Bottom="2777" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Capture Billing Information&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="label" Key="{B57F49A9-4A04-4D8A-9E51-C78DF81840A3}">
+												<Image FileName="1828213470" Left="65" Top="521" Right="88" Bottom="540" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[2]//label[contains(@class, &apos;chkbxCaptionRight&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[2]//label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelNo3" Key="{C8B6002A-724E-4689-909D-EF660D897A42}">
+												<Image FileName="-1591071674" Left="125" Top="677" Right="184" Bottom="713" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div//div[4]//span[2]/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[4]//div//span[2]/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div//div[4]//div//span[2]/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonContinue4" Key="{3A1C9AD3-4D36-40B5-9606-1608098EA9E8}">
+												<Image FileName="1110545665" Left="1524" Top="889" Right="1824" Bottom="949" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Continue&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div/div[2]/div/div/button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[2]//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[2]/div/div/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div/div[2]/div/div/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="sectionCenterPanel6" Key="{23A777EA-C1C6-42AD-BC67-0A075E9261EF}">
+												<Image FileName="262196355" Left="0" Top="340" Right="1895" Bottom="1476" />
+												<Selectors>
+													<Selector>
+														<Value Value="//section[contains(., &apos;Review Order Info&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[contains(@class, &apos;workarea-view-content&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;HARNESS_CONTENT&apos;]//section" />
+													</Selector>
+													<Selector>
+														<Value Value="//section" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelNo4" Key="{5CE0C14C-75AD-41F9-BCAD-6FA883608CEF}">
+												<Image FileName="-1465800519" Left="164" Top="614" Right="223" Bottom="650" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//label[.=&apos;No&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div//span[2]/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//span[2]/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//span[2]/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelYes" Key="{9F199B2E-E599-4B03-B5D7-5C1790A03BA5}">
+												<Image FileName="-545669738" Left="380" Top="614" Right="443" Bottom="650" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div/div/div/span/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[2]/div/div/div/span/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div/div/span/label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelYes2" Key="{CE0959D5-15EB-4E09-93D0-728A941A2DFA}">
+												<Image FileName="-352700359" Left="659" Top="614" Right="722" Bottom="650" />
+												<TypeInfo Item0="{25397F5F-FF3E-4ED5-A849-74E1B3E7AC8A}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[3]/div/div/div/span/label[contains(@class, &apos;rb_dark_segmented&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;RULE_KEY&apos;]//div[3]/div/div/div/span/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;main&apos;]//div[2]/div//div[2]//div[3]/div//label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonSubmit" Key="{4ADBFAD8-CA8C-4205-9123-5EED0DF0CC94}">
+												<Image FileName="-140414077" Left="1531" Top="769" Right="1814" Bottom="829" />
+												<TypeInfo Item0="{F72DF448-C9D2-40D2-8D33-42BE1354D3EC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[2]/div/div[2]/div/div//button[contains(@class, &apos;Primary_CTA&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{F83A1979-64E4-47A2-9453-F2AD17ADBD3E}">
+			<Child Name="BrowserWindow" Owner="{6A97C98E-1C01-4D57-98CF-750D17F95093}" />
+			<Child Name="pageHUB" Owner="{5B3567B0-F0BD-416C-92CE-BBD2E51501DC}">
+				<Child Name="textnodeSt0FillRuleEvenoddClipRu" Owner="{72C8A6BD-7866-48EB-9CC7-EBD6EF8D9A92}">
+					<Child Name="textnodeHome" Owner="{AF1FDC2D-1C08-48BC-8B8E-DC29570CA849}">
+						<Child Name="textnodeHome2" Owner="{7D973FE4-A3A2-4ACB-9A78-4A46EE105A20}" />
+					</Child>
+					<Child Name="framePegagadget0ifr" Owner="{5FE6FB80-3719-454D-9EC7-40C925EE6768}">
+						<Child Name="linkProspect" Owner="{81C0B7A3-22BC-44DE-9799-134198D93FFE}" />
+					</Child>
+					<Child Name="framePegagadget2ifr" Owner="{E0EAF4B9-F10B-49DF-83EE-3B76A328453D}">
+						<Child Name="sectionCenterPanel" Owner="{EE517770-0288-4B57-B5EA-54732933F0E2}">
+							<Child Name="selectStatecode" Owner="{B5119A40-C0CA-42B8-BA58-AB226249B1A9}" />
+							<Child Name="textboxAutocompleteid" Owner="{3354AED0-9B51-4792-B237-A5B2A156F79C}" />
+							<Child Name="textnodeAddressul" Owner="{4C0AF610-EE54-42EE-ACBD-6CAB5FFFE6B5}">
+								<Child Name="textnode" Owner="{85491E7E-1B3C-44A6-B3C5-29394CF1FA22}" />
+							</Child>
+							<Child Name="buttonSearch" Owner="{D82F18E1-6090-4CF4-AB22-C4C376711331}" />
+							<Child Name="buttonContinue" Owner="{18DBBF26-9E5E-4729-B906-D3B8D10CDDC5}" />
+						</Child>
+						<Child Name="asideLeftPanel" Owner="{64AE2969-B8F4-4492-A16A-E56F9EAE566F}">
+							<Child Name="buttonAddTask" Owner="{2D84248F-684E-41B3-9F65-0BBCEF873C69}" />
+						</Child>
+						<Child Name="textnodeOrders" Owner="{5AC03FF9-4DAF-4F11-8AA0-BA820979079E}">
+							<Child Name="linkCreateNewOrder" Owner="{FA942D94-0EE3-4CC1-8135-0172A82930A8}" />
+						</Child>
+					</Child>
+					<Child Name="framePegagadget3ifr" Owner="{86D3B15F-1208-4C91-9838-E0557AD60E79}">
+						<Child Name="sectionCenterPanel" Owner="{4B40056E-1D7F-4DBF-A306-1FACC6E532A8}">
+							<Child Name="labelNo" Owner="{AD23866F-9305-43A1-8C67-E4835A862E7C}" />
+							<Child Name="buttonContinue" Owner="{1A164F46-10C5-4D8C-8B07-07173490D127}" />
+						</Child>
+						<Child Name="textnodeTablist" Owner="{75EA2450-1056-4A52-9E05-538A7DBBACD6}">
+							<Child Name="buttonAdd" Owner="{19D0440A-72CB-41BA-93D8-4FE6783D84BD}" />
+						</Child>
+						<Child Name="linkClickToAcknowledge" Owner="{B4CBF1F3-DB0F-422C-BD65-943184517179}" />
+						<Child Name="sectionCenterPanel2" Owner="{447BF9B6-124F-4EFE-A880-705FE12E9A6A}">
+							<Child Name="textnodeServices" Owner="{D19DE4C3-EFA1-43E6-9035-D28C2E7AA691}">
+								<Child Name="linkTabanchor" Owner="{A90D5056-8A12-4929-8242-A6A52D2B815D}">
+									<Child Name="textnodeInstallationType" Owner="{308D5698-5D27-4D7A-8446-345217173D30}" />
+								</Child>
+							</Child>
+							<Child Name="buttonResponsepanelPyworkpage4" Owner="{A83A96DC-9099-4DE9-A793-D05A6AD9EE48}" />
+						</Child>
+						<Child Name="textnodeSt0FillRuleEvenoddClipRu" Owner="{2390906A-5590-476D-B268-6154DBD505BB}">
+							<Child Name="textnodeTab5" Owner="{71110DA9-BD79-4F66-9714-BEF0C0DDC400}">
+								<Child Name="labelNo2" Owner="{495BB5AB-B540-4896-B1E5-793414684210}" />
+								<Child Name="buttonAdd2" Owner="{DB20A7F6-0F7C-48FE-A28A-942F1BFC552C}" />
+							</Child>
+						</Child>
+						<Child Name="sectionCenterPanel3" Owner="{AC3E1D71-9E96-41B3-AC73-06C65D62ADFC}">
+							<Child Name="labelCreditCheckOptOut" Owner="{473FDCD7-2A89-4F3B-87C8-A97E7415C4C1}" />
+							<Child Name="buttonContinue2" Owner="{B814263B-0D72-45E4-B34D-4E9232974929}" />
+						</Child>
+						<Child Name="sectionCenterPanel4" Owner="{DFDAEC7E-1944-490E-B750-7F5E87FA28E4}">
+							<Child Name="buttonContinue3" Owner="{6D81D020-7C3B-474E-9A6E-199CA46EBCF4}" />
+						</Child>
+						<Child Name="sectionCenterPanel5" Owner="{5C28917D-5D18-48CA-8B08-9CF9EA21800D}">
+							<Child Name="label" Owner="{B57F49A9-4A04-4D8A-9E51-C78DF81840A3}" />
+							<Child Name="labelNo3" Owner="{C8B6002A-724E-4689-909D-EF660D897A42}" />
+							<Child Name="buttonContinue4" Owner="{3A1C9AD3-4D36-40B5-9606-1608098EA9E8}" />
+						</Child>
+						<Child Name="sectionCenterPanel6" Owner="{23A777EA-C1C6-42AD-BC67-0A075E9261EF}">
+							<Child Name="labelNo4" Owner="{5CE0C14C-75AD-41F9-BCAD-6FA883608CEF}" />
+							<Child Name="labelYes" Owner="{9F199B2E-E599-4B03-B5D7-5C1790A03BA5}" />
+							<Child Name="labelYes2" Owner="{CE0959D5-15EB-4E09-93D0-728A941A2DFA}" />
+							<Child Name="buttonSubmit" Owner="{4ADBFAD8-CA8C-4205-9123-5EED0DF0CC94}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
